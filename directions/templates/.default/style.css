@@ -1,0 +1,143 @@
+
+#services-list {
+    list-style-type: none;
+}
+.services-list-item {
+
+}
+
+.clinic-info-route-submit {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 2px solid #6EA724;
+    color: #6EA724;
+    padding: 3px 15px 3px;
+    border-radius: 17px;
+    font-size: 14px;
+}
+.clinic-info-route-submit:hover {
+    color: #F57018;
+    border-color: #F57018;
+}
+.tab-pane .pick-service-group input {
+    margin-bottom:0px!important;
+    cursor: pointer;
+    background-color: #fff;
+}
+.input-group-addon {
+    cursor: pointer;
+}
+.clinic-info {
+    display: none;
+}
+.input-group input {
+    margin-bottom: 0px!important;
+}
+.modal-body .nav.nav-tabs li {
+    font-size: 1.5em;
+}
+.services-list-item-remove {
+    font-size: 1em;
+}
+#services-list {
+    vertical-align: middle;
+}
+#services-list-add, .services-list-item-remove {
+    cursor: pointer;
+}
+#services-list-add .glyphicon {
+    font-size: 18px;
+    color: #6BAA26;
+}
+.services-list-item-price {
+    position: absolute;
+    min-width: 70px;
+    right: 0px;
+    background: #ffdd4f;
+    color: #f36f21;
+    padding: 5px;
+    padding-left: 10px;
+    top: 0px;
+    border-radius: 0px 4px 4px 0px;
+    text-align: center;
+    border-left: 1px solid #6BAA26;
+}
+.services-list-item-remove {
+    font-size: 12px;
+    margin-right: 5px;
+    color: #F57018;
+}
+.services-list-label {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.services-list-item {
+    border: 1px solid #6BAA26;
+    border-radius: 4px;
+    position: relative;
+}
+#services-list-add .main {
+    display: inline-block;
+    position: absolute;
+    padding-top: 2px;
+    padding-left: 3px;
+}
+.pl-0{
+    padding-left: 0px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.big-search {
+    background: #ffdd4f;
+    box-shadow: none;
+}
+.service_input{
+    cursor: pointer!important;
+}
+.btn_cl {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+.big-search input[type="text"] {
+    box-shadow: none;
+}
+.gradient_l {
+    position: absolute;
+    min-width: 35%;
+    right: 70px;
+    background: #ffdd4f;
+    color: #f36f21;
+    padding: 15px;
+    top: 0px;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(35%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 35%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+}
+.np {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.services_btn_container {
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.clinics_select.selected {
+    font-weight: bold;
+}
